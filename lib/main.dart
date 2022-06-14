@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'DeliMeals',
+      title: 'Meals2go',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -28,5 +28,14 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   @override
-  Widget build(BuildContext context) {return Scaffold(appBar: AppBar(title: Text),)}
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Meals2go'),
+      ),
+      body: Center(
+        child: Text('Navigation Time!'),
+      ),
+    );
+  }
 }
