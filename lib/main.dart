@@ -13,7 +13,21 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Meals2go',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.pink,
+        accentColor: Colors.amber,
+        canvasColor: Color.fromARGB(255, 164, 153, 47),
+        fontFamily: 'Raleway',
+        textTheme: ThemeData.light().textTheme.copyWith(
+            bodyText1: TextStyle(
+              color: Color.fromARGB(20, 51, 51, 1),
+            ),
+            bodyText2: TextStyle(
+              color: Color.fromARGB(20, 51, 51, 1),
+            ),
+            subtitle1: TextStyle(
+              fontSize: 24,
+              fontFamily: 'RobotoCondensed',
+            )),
       ),
       home: CategoriesScreen(),
     );
