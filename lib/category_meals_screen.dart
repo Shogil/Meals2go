@@ -5,8 +5,13 @@ class MyWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Text('The Recipes for the Category!'),
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('The Recipes'),
+      ),
+      body: Center(
+        child: Text('The Recipes for the Category!'),
+      ),
     );
   }
 }
