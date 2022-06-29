@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 
-class MyWidget extends StatelessWidget {
-  const MyWidget({Key? key}) : super(key: key);
-
+class CategoryMealsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
