@@ -8,7 +8,10 @@ class CategoryMealsScreen extends StatelessWidget {
         title: Text('The Recipes'),
       ),
       body: Center(
-        child: Text('The Recipes for the Category!'),
+        child: Text(
+          'The Recipes for the Category!',
+          style: Theme.of(context).textTheme.subtitle1,
+        ),
       ),
     );
   }

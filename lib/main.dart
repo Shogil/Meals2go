@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       title: 'Meals2go',
       theme: ThemeData(
         primarySwatch: Colors.pink,
-        accentColor: Colors.amber,
+        accentColor: Color.fromARGB(255, 234, 217, 89),
         canvasColor: Color.fromARGB(255, 228, 226, 211),
         fontFamily: 'Raleway',
         textTheme: ThemeData.light().textTheme.copyWith(
