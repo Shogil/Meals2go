@@ -20,10 +20,10 @@ class MyApp extends StatelessWidget {
         fontFamily: 'Raleway',
         textTheme: ThemeData.light().textTheme.copyWith(
             bodyText1: TextStyle(
-              color: Color.fromARGB(20, 51, 51, 1),
+              color: Color.fromARGB(20, 51, 51, 2),
             ),
             bodyText2: TextStyle(
-              color: Color.fromARGB(20, 51, 51, 1),
+              color: Color.fromARGB(20, 51, 51, 2),
             ),
             subtitle1: TextStyle(
               fontSize: 20,
